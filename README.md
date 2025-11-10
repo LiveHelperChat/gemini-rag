@@ -31,6 +31,12 @@ This repository contains a script to index your own files to gemini file store. 
 
 Also delete `knowledge_base` if you have one.
 
+In `Output parsing > Tool call` add second condition
+    
+```text
+candidates:0:content:parts:0:functionCall:name != google:file_search
+```
+
 ##  Make sure to change model to `gemini-flash-latest`
 
 File search tool works only with the last model.
