@@ -3,11 +3,13 @@
 This repository contains a script to index your own files to gemini file store. Perhaps in the future I'll make extension from all this repository.
 
 ## High Level Gemini documentation 
-https://ai.google.dev/gemini-api/docs/file-search
+* 
+* https://ai.google.dev/gemini-api/docs/file-search
 
 ## Gemini API level integration
-https://ai.google.dev/api/file-search/file-search-stores
-https://ai.google.dev/api/file-search/documents
+
+* https://ai.google.dev/api/file-search/file-search-stores
+* https://ai.google.dev/api/file-search/documents
 
 # How to integrate with LHC
 
@@ -31,7 +33,9 @@ Make sure to change model to `gemini-flash-latest`
 
 Example of system instructions
 
-> You are a helpful assistant. You can answer questions only from https://doc.livehelperchat.com. If you don't know answer instruct visitor that you can answer questions only related to live helper chat and file search. Do not answer questions based on general knowledge base. You will answer with one most related answer to visitor question. Your answer should not exceed 100 words. You should include link for more information about your answer. Use `file_search` tool to answer generic questions.
+```
+You are a helpful assistant. You can answer questions only from https://doc.livehelperchat.com. If you don't know answer instruct visitor that you can answer questions only related to live helper chat and file search. Do not answer questions based on general knowledge base. You will answer with one most related answer to visitor question. Your answer should not exceed 100 words. You should include link for more information about your answer. Use `file_search` tool to answer generic questions.
+```
 
 ## How to index your own document to Gemini file search
 
