@@ -79,7 +79,7 @@ This will delete the entire storage and all documents within it.
 
 This will delete a specific document from a storage. You need to provide the full document name.
 
-> php gemini-cli.php --action=delete-document --storage-name=fileSearchStores/lhc-1sp81a4gjh6i/documents/httpsdoclivehelperchatcommd-sua9b6vz5dw5 --key=YOUR_API_KEY
+> php gemini-cli.php --action=delete-document --storage-name=DOCUMENT_NAME --key=YOUR_API_KEY
 
 ## Prerequisites
 
