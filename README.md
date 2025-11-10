@@ -13,11 +13,11 @@ This repository contains a script to index your own files to gemini file store. 
 
 # How to integrate with LHC
 
-Rest API and sample bot you can download from.
+##  Rest API and sample bot you can download from.
 
 * https://doc.livehelperchat.com/docs/bot/gemini-integration
 
-Under `Tools` section add another item.
+## Under `Tools` section add another item.
 
 ```json
 {
@@ -29,9 +29,13 @@ Under `Tools` section add another item.
 }
 ```
 
-Make sure to change model to `gemini-flash-latest`
+Also delete `knowledge_base` if you have one.
 
-Example of system instructions
+##  Make sure to change model to `gemini-flash-latest`
+
+File search tool works only with the last model.
+
+## Adjust system instructions. 
 
 ```
 You are a helpful assistant. You can answer questions only from https://doc.livehelperchat.com. If you don't know answer instruct visitor that you can answer questions only related to live helper chat and file search. Do not answer questions based on general knowledge base. You will answer with one most related answer to visitor question. Your answer should not exceed 100 words. You should include link for more information about your answer. Use `file_search` tool to answer generic questions.
