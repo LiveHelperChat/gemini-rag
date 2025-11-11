@@ -3,7 +3,6 @@
 This repository contains a script to index your own files to gemini file store. Perhaps in the future I'll make extension from all this repository.
 
 ## High Level Gemini documentation 
-* 
 * https://ai.google.dev/gemini-api/docs/file-search
 
 ## Gemini API level integration
